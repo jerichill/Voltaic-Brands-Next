@@ -30,19 +30,17 @@ const Home = (props) => {
         </Head>
         <div className="home-top-container">
           <nav data-role="Header" className="home-navbar">
-            <Link href="/home">
-              <a className="home-link">
-                <span className="home-text">
-                  VOLTAIC
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="home-text01">Brands</span>
-              </a>
-            </Link>
+            <a href="https://www.voltaicbrands.com" className="home-logo">
+              <span className="home-text">
+                VOLTAIC
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text01">Brands</span>
+            </a>
             <span className="home-text02">TM</span>
             <div className="home-right-side">
               <div className="home-links-container">
@@ -79,7 +77,7 @@ const Home = (props) => {
                     <span className="home-text09">Tour Packages</span>
                     <span>Contact</span>
                   </div>
-                  <a href="#main-section" className="home-link02">
+                  <a href="#main-section" className="home-link01">
                     <SolidButton button="Explore places"></SolidButton>
                   </a>
                 </div>
@@ -98,7 +96,7 @@ const Home = (props) => {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link03"
+                    className="home-link02"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -111,7 +109,7 @@ const Home = (props) => {
                     href="https://facebook.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link04"
+                    className="home-link03"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -124,7 +122,7 @@ const Home = (props) => {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link05"
+                    className="home-link04"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -195,7 +193,7 @@ const Home = (props) => {
               href="https://www.theparksreimagined.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link06"
+              className="home-link05"
             >
               <PlaceCard
                 city="Ploygon"
@@ -209,7 +207,7 @@ const Home = (props) => {
               href="https://www.rareorbs.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link07"
+              className="home-link06"
             >
               <PlaceCard
                 city="Ethereum &amp; Solana"
@@ -223,7 +221,7 @@ const Home = (props) => {
               href="https://www.radpups.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link08"
+              className="home-link07"
             >
               <PlaceCard
                 city="Polygon"
@@ -237,7 +235,7 @@ const Home = (props) => {
               href="https://www.etherfelis.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link09"
+              className="home-link08"
             >
               <PlaceCard
                 city="Ethereum"
@@ -250,7 +248,7 @@ const Home = (props) => {
               href="https://www.sinisterassassins.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link10"
+              className="home-link09"
             >
               <PlaceCard
                 city="Binance"
@@ -264,7 +262,7 @@ const Home = (props) => {
               href="https://www.mutantblobs.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link11"
+              className="home-link10"
             >
               <PlaceCard
                 city="Binance"
@@ -296,19 +294,19 @@ const Home = (props) => {
                 </svg>
                 <a
                   href="mailto:support@turbovirtual.com?subject=VOLTAIC  Support Inquiry"
-                  className="home-link12"
+                  className="home-link11"
                 >
                   Support
                 </a>
               </div>
               <div className="home-container2">
                 <Link href="/privacy-policy">
-                  <a className="home-link13">Privacy Policy</a>
+                  <a className="home-link12">Privacy Policy</a>
                 </Link>
               </div>
               <div className="home-container3">
                 <Link href="/website-terms">
-                  <a className="home-link14">Disclaimer &amp; Terms</a>
+                  <a className="home-link13">Disclaimer &amp; Terms</a>
                 </Link>
               </div>
             </div>
@@ -326,7 +324,7 @@ const Home = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link15"
+                  className="home-link14"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -339,7 +337,7 @@ const Home = (props) => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link16"
+                  className="home-link15"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -352,7 +350,7 @@ const Home = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link17"
+                  className="home-link16"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -401,7 +399,7 @@ const Home = (props) => {
   padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
 }
-.home-link {
+.home-logo {
   color: var(--dl-color-gray-white);
   font-size: 2.25rem;
   font-family: Maven Pro;
@@ -530,7 +528,7 @@ const Home = (props) => {
 .home-text09 {
   margin-bottom: 8px;
 }
-.home-link02 {
+.home-link01 {
   display: contents;
 }
 .home-follow-container {
@@ -549,21 +547,21 @@ const Home = (props) => {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-link03 {
+.home-link02 {
   display: contents;
 }
 .home-icon05 {
   width: 24px;
   height: 24px;
 }
-.home-link04 {
+.home-link03 {
   display: contents;
 }
 .home-icon07 {
   width: 24px;
   height: 24px;
 }
-.home-link05 {
+.home-link04 {
   display: contents;
 }
 .home-icon09 {
@@ -673,37 +671,37 @@ const Home = (props) => {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-link06 {
+.home-link05 {
   display: contents;
 }
 .home-component2 {
   text-decoration: none;
 }
-.home-link07 {
+.home-link06 {
   display: contents;
 }
 .home-component3 {
   text-decoration: none;
 }
-.home-link08 {
+.home-link07 {
   display: contents;
 }
 .home-component4 {
   text-decoration: none;
 }
-.home-link09 {
+.home-link08 {
   display: contents;
 }
 .home-component5 {
   text-decoration: none;
 }
-.home-link10 {
+.home-link09 {
   display: contents;
 }
 .home-component6 {
   text-decoration: none;
 }
-.home-link11 {
+.home-link10 {
   display: contents;
 }
 .home-component7 {
@@ -756,7 +754,7 @@ const Home = (props) => {
   height: 20px;
   margin-right: var(--dl-space-space-halfunit);
 }
-.home-link12 {
+.home-link11 {
   font-size: 14px;
   text-decoration: none;
 }
@@ -766,7 +764,7 @@ const Home = (props) => {
   margin-left: 100px;
   flex-direction: row;
 }
-.home-link13 {
+.home-link12 {
   font-size: 14px;
   text-decoration: none;
 }
@@ -776,7 +774,7 @@ const Home = (props) => {
   margin-left: 100px;
   flex-direction: row;
 }
-.home-link14 {
+.home-link13 {
   font-size: 14px;
   text-decoration: none;
 }
@@ -797,7 +795,7 @@ const Home = (props) => {
   flex-direction: row;
   justify-content: space-between;
 }
-.home-link15 {
+.home-link14 {
   display: contents;
 }
 .home-icon13 {
@@ -805,7 +803,7 @@ const Home = (props) => {
   width: 24px;
   height: 24px;
 }
-.home-link16 {
+.home-link15 {
   display: contents;
 }
 .home-icon15 {
@@ -813,7 +811,7 @@ const Home = (props) => {
   width: 24px;
   height: 24px;
 }
-.home-link17 {
+.home-link16 {
   display: contents;
 }
 .home-icon17 {
@@ -926,7 +924,7 @@ const Home = (props) => {
     margin-left: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .home-link12 {
+  .home-link11 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .home-container2 {
@@ -936,7 +934,7 @@ const Home = (props) => {
     margin-left: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .home-link13 {
+  .home-link12 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .home-container3 {
@@ -945,7 +943,7 @@ const Home = (props) => {
     align-items: center;
     margin-left: 0px;
   }
-  .home-link14 {
+  .home-link13 {
     margin-bottom: var(--dl-space-space-halfunit);
   }
   .home-follow-container1 {
