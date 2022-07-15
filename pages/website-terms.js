@@ -32,19 +32,22 @@ const WebsiteTerms = (props) => {
         </Head>
         <header className="website-terms-top-container">
           <nav data-role="Header" className="website-terms-navbar">
-            <Link href="/home">
-              <a className="website-terms-link">
-                <span className="website-terms-text">
-                  VOLTAIC
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="website-terms-text01">Brands</span>
-              </a>
-            </Link>
+            <a
+              href="https://www.voltaicbrands.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="website-terms-logo"
+            >
+              <span className="website-terms-text">
+                VOLTAIC
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="website-terms-text01">Brands</span>
+            </a>
             <span className="website-terms-text02">TM</span>
             <div className="website-terms-right-side">
               <div className="website-terms-links-container">
@@ -90,7 +93,7 @@ const WebsiteTerms = (props) => {
                     <span className="website-terms-text09">Tour Packages</span>
                     <span>Contact</span>
                   </div>
-                  <a href="#main-section" className="website-terms-link02">
+                  <a href="#main-section" className="website-terms-link01">
                     <SolidButton button="Explore places"></SolidButton>
                   </a>
                 </div>
@@ -109,7 +112,7 @@ const WebsiteTerms = (props) => {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="website-terms-link03"
+                    className="website-terms-link02"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -122,7 +125,7 @@ const WebsiteTerms = (props) => {
                     href="https://facebook.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="website-terms-link04"
+                    className="website-terms-link03"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -135,7 +138,7 @@ const WebsiteTerms = (props) => {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="website-terms-link05"
+                    className="website-terms-link04"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -341,19 +344,19 @@ const WebsiteTerms = (props) => {
                 </svg>
                 <a
                   href="mailto:support@turbovirtual.com?subject=VOLTAIC  Support Inquiry"
-                  className="website-terms-link06"
+                  className="website-terms-link05"
                 >
                   Support
                 </a>
               </div>
               <div className="website-terms-container2">
                 <Link href="/privacy-policy">
-                  <a className="website-terms-link07">Privacy Policy</a>
+                  <a className="website-terms-link06">Privacy Policy</a>
                 </Link>
               </div>
               <div className="website-terms-container3">
                 <Link href="/website-terms">
-                  <a className="website-terms-link08">Disclaimer &amp; Terms</a>
+                  <a className="website-terms-link07">Disclaimer &amp; Terms</a>
                 </Link>
               </div>
             </div>
@@ -371,7 +374,7 @@ const WebsiteTerms = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="website-terms-link09"
+                  className="website-terms-link08"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -384,7 +387,7 @@ const WebsiteTerms = (props) => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="website-terms-link10"
+                  className="website-terms-link09"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -397,7 +400,7 @@ const WebsiteTerms = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="website-terms-link11"
+                  className="website-terms-link10"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -451,7 +454,7 @@ const WebsiteTerms = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .website-terms-link {
+          .website-terms-logo {
             color: var(--dl-color-gray-white);
             font-size: 2.25rem;
             font-family: Maven Pro;
@@ -580,7 +583,7 @@ const WebsiteTerms = (props) => {
           .website-terms-text09 {
             margin-bottom: 8px;
           }
-          .website-terms-link02 {
+          .website-terms-link01 {
             display: contents;
           }
           .website-terms-follow-container {
@@ -599,21 +602,21 @@ const WebsiteTerms = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .website-terms-link03 {
+          .website-terms-link02 {
             display: contents;
           }
           .website-terms-icon05 {
             width: 24px;
             height: 24px;
           }
-          .website-terms-link04 {
+          .website-terms-link03 {
             display: contents;
           }
           .website-terms-icon07 {
             width: 24px;
             height: 24px;
           }
-          .website-terms-link05 {
+          .website-terms-link04 {
             display: contents;
           }
           .website-terms-icon09 {
@@ -710,7 +713,7 @@ const WebsiteTerms = (props) => {
             height: 18px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .website-terms-link06 {
+          .website-terms-link05 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -720,7 +723,7 @@ const WebsiteTerms = (props) => {
             margin-left: 100px;
             flex-direction: row;
           }
-          .website-terms-link07 {
+          .website-terms-link06 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -730,7 +733,7 @@ const WebsiteTerms = (props) => {
             margin-left: 100px;
             flex-direction: row;
           }
-          .website-terms-link08 {
+          .website-terms-link07 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -751,7 +754,7 @@ const WebsiteTerms = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .website-terms-link09 {
+          .website-terms-link08 {
             display: contents;
           }
           .website-terms-icon13 {
@@ -759,7 +762,7 @@ const WebsiteTerms = (props) => {
             width: 24px;
             height: 24px;
           }
-          .website-terms-link10 {
+          .website-terms-link09 {
             display: contents;
           }
           .website-terms-icon15 {
@@ -767,7 +770,7 @@ const WebsiteTerms = (props) => {
             width: 24px;
             height: 24px;
           }
-          .website-terms-link11 {
+          .website-terms-link10 {
             display: contents;
           }
           .website-terms-icon17 {
@@ -874,7 +877,7 @@ const WebsiteTerms = (props) => {
               margin-left: 0px;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .website-terms-link06 {
+            .website-terms-link05 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .website-terms-container2 {
@@ -884,7 +887,7 @@ const WebsiteTerms = (props) => {
               margin-left: 0px;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .website-terms-link07 {
+            .website-terms-link06 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .website-terms-container3 {
@@ -893,7 +896,7 @@ const WebsiteTerms = (props) => {
               align-items: center;
               margin-left: 0px;
             }
-            .website-terms-link08 {
+            .website-terms-link07 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .website-terms-follow-container1 {

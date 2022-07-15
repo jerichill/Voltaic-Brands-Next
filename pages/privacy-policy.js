@@ -32,19 +32,20 @@ const PrivacyPolicy = (props) => {
         </Head>
         <header className="privacy-policy-top-container">
           <nav data-role="Header" className="privacy-policy-navbar">
-            <Link href="/home">
-              <a className="privacy-policy-link">
-                <span className="privacy-policy-text">
-                  VOLTAIC
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span className="privacy-policy-text001">Brands</span>
-              </a>
-            </Link>
+            <a
+              href="https://www.voltaicbrands.com"
+              className="privacy-policy-logo"
+            >
+              <span className="privacy-policy-text">
+                VOLTAIC
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="privacy-policy-text001">Brands</span>
+            </a>
             <span className="privacy-policy-text002">TM</span>
             <div className="privacy-policy-right-side">
               <div className="privacy-policy-links-container">
@@ -94,7 +95,7 @@ const PrivacyPolicy = (props) => {
                     </span>
                     <span>Contact</span>
                   </div>
-                  <a href="#main-section" className="privacy-policy-link02">
+                  <a href="#main-section" className="privacy-policy-link01">
                     <SolidButton button="Explore places"></SolidButton>
                   </a>
                 </div>
@@ -113,7 +114,7 @@ const PrivacyPolicy = (props) => {
                     href="https://instagram.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="privacy-policy-link03"
+                    className="privacy-policy-link02"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -126,7 +127,7 @@ const PrivacyPolicy = (props) => {
                     href="https://facebook.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="privacy-policy-link04"
+                    className="privacy-policy-link03"
                   >
                     <svg
                       viewBox="0 0 602.2582857142856 1024"
@@ -139,7 +140,7 @@ const PrivacyPolicy = (props) => {
                     href="https://twitter.com"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="privacy-policy-link05"
+                    className="privacy-policy-link04"
                   >
                     <svg
                       viewBox="0 0 950.8571428571428 1024"
@@ -1161,19 +1162,19 @@ const PrivacyPolicy = (props) => {
                 </svg>
                 <a
                   href="mailto:support@turbovirtual.com?subject=VOLTAIC  Support Inquiry"
-                  className="privacy-policy-link06"
+                  className="privacy-policy-link05"
                 >
                   Support
                 </a>
               </div>
               <div className="privacy-policy-container2">
                 <Link href="/privacy-policy">
-                  <a className="privacy-policy-link07">Privacy Policy</a>
+                  <a className="privacy-policy-link06">Privacy Policy</a>
                 </Link>
               </div>
               <div className="privacy-policy-container3">
                 <Link href="/website-terms">
-                  <a className="privacy-policy-link08">
+                  <a className="privacy-policy-link07">
                     Disclaimer &amp; Terms
                   </a>
                 </Link>
@@ -1193,7 +1194,7 @@ const PrivacyPolicy = (props) => {
                   href="https://instagram.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link09"
+                  className="privacy-policy-link08"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -1206,7 +1207,7 @@ const PrivacyPolicy = (props) => {
                   href="https://facebook.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link10"
+                  className="privacy-policy-link09"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -1219,7 +1220,7 @@ const PrivacyPolicy = (props) => {
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-policy-link11"
+                  className="privacy-policy-link10"
                 >
                   <svg
                     viewBox="0 0 950.8571428571428 1024"
@@ -1273,7 +1274,7 @@ const PrivacyPolicy = (props) => {
             padding-bottom: var(--dl-space-space-unit);
             justify-content: center;
           }
-          .privacy-policy-link {
+          .privacy-policy-logo {
             color: var(--dl-color-gray-white);
             font-size: 2.25rem;
             font-family: Maven Pro;
@@ -1402,7 +1403,7 @@ const PrivacyPolicy = (props) => {
           .privacy-policy-text009 {
             margin-bottom: 8px;
           }
-          .privacy-policy-link02 {
+          .privacy-policy-link01 {
             display: contents;
           }
           .privacy-policy-follow-container {
@@ -1421,21 +1422,21 @@ const PrivacyPolicy = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .privacy-policy-link03 {
+          .privacy-policy-link02 {
             display: contents;
           }
           .privacy-policy-icon05 {
             width: 24px;
             height: 24px;
           }
-          .privacy-policy-link04 {
+          .privacy-policy-link03 {
             display: contents;
           }
           .privacy-policy-icon07 {
             width: 24px;
             height: 24px;
           }
-          .privacy-policy-link05 {
+          .privacy-policy-link04 {
             display: contents;
           }
           .privacy-policy-icon09 {
@@ -1532,7 +1533,7 @@ const PrivacyPolicy = (props) => {
             height: 18px;
             margin-right: var(--dl-space-space-halfunit);
           }
-          .privacy-policy-link06 {
+          .privacy-policy-link05 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -1542,7 +1543,7 @@ const PrivacyPolicy = (props) => {
             margin-left: 100px;
             flex-direction: row;
           }
-          .privacy-policy-link07 {
+          .privacy-policy-link06 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -1552,7 +1553,7 @@ const PrivacyPolicy = (props) => {
             margin-left: 100px;
             flex-direction: row;
           }
-          .privacy-policy-link08 {
+          .privacy-policy-link07 {
             font-size: 14px;
             text-decoration: none;
           }
@@ -1573,7 +1574,7 @@ const PrivacyPolicy = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .privacy-policy-link09 {
+          .privacy-policy-link08 {
             display: contents;
           }
           .privacy-policy-icon13 {
@@ -1581,7 +1582,7 @@ const PrivacyPolicy = (props) => {
             width: 24px;
             height: 24px;
           }
-          .privacy-policy-link10 {
+          .privacy-policy-link09 {
             display: contents;
           }
           .privacy-policy-icon15 {
@@ -1589,7 +1590,7 @@ const PrivacyPolicy = (props) => {
             width: 24px;
             height: 24px;
           }
-          .privacy-policy-link11 {
+          .privacy-policy-link10 {
             display: contents;
           }
           .privacy-policy-icon17 {
@@ -1696,7 +1697,7 @@ const PrivacyPolicy = (props) => {
               margin-left: 0px;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .privacy-policy-link06 {
+            .privacy-policy-link05 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .privacy-policy-container2 {
@@ -1706,7 +1707,7 @@ const PrivacyPolicy = (props) => {
               margin-left: 0px;
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .privacy-policy-link07 {
+            .privacy-policy-link06 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .privacy-policy-container3 {
@@ -1715,7 +1716,7 @@ const PrivacyPolicy = (props) => {
               align-items: center;
               margin-left: 0px;
             }
-            .privacy-policy-link08 {
+            .privacy-policy-link07 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
             .privacy-policy-follow-container1 {
