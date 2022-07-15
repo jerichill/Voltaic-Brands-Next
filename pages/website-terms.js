@@ -34,8 +34,6 @@ const WebsiteTerms = (props) => {
           <nav data-role="Header" className="website-terms-navbar">
             <a
               href="https://www.voltaicbrands.com"
-              target="_blank"
-              rel="noreferrer noopener"
               className="website-terms-logo"
             >
               <span className="website-terms-text">
