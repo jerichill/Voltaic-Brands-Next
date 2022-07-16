@@ -154,7 +154,7 @@ const Home = (props) => {
                     }}
                   />
                 </span>
-                <span>for Crypto-Natives.</span>
+                <span>for Crypto-Natives</span>
               </h1>
             </div>
             <video
